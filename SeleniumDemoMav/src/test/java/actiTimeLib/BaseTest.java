@@ -11,7 +11,7 @@ public class BaseTest implements Constants {
 
 	public WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void launch()
 	{
 		System.setProperty(CHOME_KEY, CHROME_PATH);
@@ -20,7 +20,7 @@ public class BaseTest implements Constants {
 		driver.manage().window().maximize();
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void closeBrowser()
 	{
 		driver.quit();

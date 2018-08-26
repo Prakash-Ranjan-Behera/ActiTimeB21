@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Web element is present]]>
+    </line>
+    <line>
+      <![CDATA[Web element is present]]>
+    </line>
+    <line>
+      <![CDATA[Web element is present]]>
+    </line>
+    <line>
+      <![CDATA[Web element is present]]>
+    </line>
+    <line>
+      <![CDATA[Web element is present]]>
+    </line>
+    <line>
+      <![CDATA[Web element is present]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="114259" started-at="2018-08-19T05:16:17Z" finished-at="2018-08-19T05:18:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="114259" started-at="2018-08-19T05:16:17Z" finished-at="2018-08-19T05:18:11Z">
+      <class name="actiTimeTest.TestHomePage">
+        <test-method status="PASS" signature="launch()[pri:0, instance:actiTimeTest.TestHomePage@42d80b78]" name="launch" is-config="true" duration-ms="4660" started-at="2018-08-19T05:16:17Z" finished-at="2018-08-19T05:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:actiTimeTest.TestHomePage@42d80b78]" name="testLogout" duration-ms="11150" started-at="2018-08-19T05:16:21Z" finished-at="2018-08-19T05:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:actiTimeTest.TestHomePage@42d80b78]" name="closeBrowser" is-config="true" duration-ms="654" started-at="2018-08-19T05:16:32Z" finished-at="2018-08-19T05:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- actiTimeTest.TestHomePage -->
+      <class name="actiTimeTest.TestLogin">
+        <test-method status="PASS" signature="launch()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="launch" is-config="true" duration-ms="3474" started-at="2018-08-19T05:16:33Z" finished-at="2018-08-19T05:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testValidCredential()[pri:1, instance:actiTimeTest.TestLogin@3bfdc050]" name="testValidCredential" duration-ms="10183" started-at="2018-08-19T05:16:37Z" finished-at="2018-08-19T05:16:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidCredential -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="655" started-at="2018-08-19T05:16:47Z" finished-at="2018-08-19T05:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="launch" is-config="true" duration-ms="3485" started-at="2018-08-19T05:16:47Z" finished-at="2018-08-19T05:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testInvalidUn()[pri:2, instance:actiTimeTest.TestLogin@3bfdc050]" name="testInvalidUn" duration-ms="7596" started-at="2018-08-19T05:16:51Z" finished-at="2018-08-19T05:16:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Web element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidUn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="646" started-at="2018-08-19T05:16:59Z" finished-at="2018-08-19T05:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="launch" is-config="true" duration-ms="3459" started-at="2018-08-19T05:16:59Z" finished-at="2018-08-19T05:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testInvalidPw()[pri:3, instance:actiTimeTest.TestLogin@3bfdc050]" name="testInvalidPw" duration-ms="7900" started-at="2018-08-19T05:17:03Z" finished-at="2018-08-19T05:17:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Web element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidPw -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="644" started-at="2018-08-19T05:17:11Z" finished-at="2018-08-19T05:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="launch" is-config="true" duration-ms="3507" started-at="2018-08-19T05:17:11Z" finished-at="2018-08-19T05:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testNoUsername()[pri:4, instance:actiTimeTest.TestLogin@3bfdc050]" name="testNoUsername" duration-ms="7371" started-at="2018-08-19T05:17:15Z" finished-at="2018-08-19T05:17:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Web element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNoUsername -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="863" started-at="2018-08-19T05:17:22Z" finished-at="2018-08-19T05:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="launch" is-config="true" duration-ms="6495" started-at="2018-08-19T05:17:23Z" finished-at="2018-08-19T05:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testNoPassword()[pri:5, instance:actiTimeTest.TestLogin@3bfdc050]" name="testNoPassword" duration-ms="14719" started-at="2018-08-19T05:17:29Z" finished-at="2018-08-19T05:17:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Web element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNoPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="680" started-at="2018-08-19T05:17:44Z" finished-at="2018-08-19T05:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="launch" is-config="true" duration-ms="3476" started-at="2018-08-19T05:17:45Z" finished-at="2018-08-19T05:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testNoValue()[pri:6, instance:actiTimeTest.TestLogin@3bfdc050]" name="testNoValue" duration-ms="10055" started-at="2018-08-19T05:17:48Z" finished-at="2018-08-19T05:17:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Web element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNoValue -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="652" started-at="2018-08-19T05:17:58Z" finished-at="2018-08-19T05:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="launch" is-config="true" duration-ms="3413" started-at="2018-08-19T05:17:59Z" finished-at="2018-08-19T05:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="testInvalidCredential()[pri:7, instance:actiTimeTest.TestLogin@3bfdc050]" name="testInvalidCredential" duration-ms="7816" started-at="2018-08-19T05:18:02Z" finished-at="2018-08-19T05:18:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Web element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredential -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:actiTimeTest.TestLogin@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="652" started-at="2018-08-19T05:18:10Z" finished-at="2018-08-19T05:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- actiTimeTest.TestLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
